@@ -1,130 +1,76 @@
-# PROTONIX
+<p align="center">
+  <h1 align="center">⚛️ PROTONIX</h1>
+  <p align="center">
+    Training an AI Model from First Principles
+  </p>
+</p>
 
-## Training an AI Model from First Principles
-
-## Overview
-
-**PROTONIX** is an experimental artificial intelligence system built entirely from scratch using Python.  
-The project focuses on understanding how intelligence can emerge from simple mathematical and logical foundations—without relying on pre-trained models, cloud APIs, or black-box frameworks.
-
-PROTONIX starts at zero and learns through structured training cycles.
-
----
-
-## Objectives
-
-- Design a learning system from first principles
-- Implement model architecture manually
-- Build the full training loop
-- Understand loss, optimization, and improvement
-- Maintain full transparency over how learning occurs
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=flat-square" />
+  <img src="https://img.shields.io/badge/Status-Experimental-orange?style=flat-square" />
+  <img src="https://img.shields.io/badge/Focus-From%20Scratch-critical?style=flat-square" />
+  <img src="https://img.shields.io/badge/License-Learning-green?style=flat-square" />
+</p>
 
 ---
 
-## What Makes PROTONIX Different
+## ⚛️ What is PROTONIX?
 
-- No pre-trained weights
-- No external AI APIs
-- No shortcuts or abstractions
-- Every learning step is explicit and controlled
+**PROTONIX** is an experimental AI system built **entirely from scratch** using Python.
 
-This project prioritizes **understanding over performance**.
+No pre-trained models.  
+No cloud APIs.  
+No black boxes.
+
+The project explores how **intelligence can emerge from simple mathematical foundations**, starting from a zero-knowledge state and improving through structured training cycles.
 
 ---
 
-## Core Concepts Covered
+## 🎯 Project Goals
 
-- Data representation
+- Build a learning system from first principles
+- Implement model logic manually
+- Understand training, loss, and optimization deeply
+- Maintain full transparency of how learning happens
+- Learn by building — not by abstracting
+
+---
+
+## 🚫 What PROTONIX Is Not
+
+- ❌ Not an API wrapper (OpenAI / Gemini / HF)
+- ❌ Not a pre-trained demo
+- ❌ Not production-focused
+- ❌ Not framework-heavy
+
+This is a **fundamental learning project**.
+
+---
+
+## 🧠 Core Concepts Covered
+
+- Data representation & preprocessing
 - Forward computation
-- Loss calculation
+- Loss functions
 - Parameter updates
-- Training iterations (epochs)
-- Evaluation and refinement
+- Training loops (epochs)
+- Evaluation & improvement
+
+Each component is written to be **readable, traceable, and explainable**.
 
 ---
 
-## Planned Model Scope
-
-The initial versions of PROTONIX will focus on:
-- Simple models with explainable behavior
-- Gradual increase in complexity
-- Clear learning progression
-
-Advanced architectures will only be introduced after fundamentals are solid.
-
----
-
-## Tech Stack
+## 🛠 Tech Stack
 
 - **Language:** Python 3.10+
 - **Libraries:**
-  - `numpy`
-  - `matplotlib`
-  - `json` / `csv`
+  - `numpy` – numerical operations
+  - `matplotlib` – learning visualization
+  - `csv` / `json` – data handling
 
-Heavy ML frameworks are intentionally avoided early.
-
----
-
-## Project Structure
-
-protonix/
-│
-├── data/
-│ ├── raw/
-│ └── processed/
-│
-├── model/
-│ ├── model.py
-│ ├── loss.py
-│ └── train.py
-│
-├── utils/
-│ └── helpers.py
-│
-├── experiments/
-├── main.py
-├── requirements.txt
-└── README.md
-
-yaml
-Copy code
+> Heavy ML frameworks are intentionally avoided in early stages.
 
 ---
 
-## Training Workflow
+## 📂 Project Structure
 
-1. Load and preprocess data
-2. Initialize model parameters
-3. Perform forward pass
-4. Calculate loss
-5. Update parameters
-6. Repeat across epochs
-7. Evaluate learning progress
-
----
-
-## Project Status
-
-🟡 Early development / research phase
-
----
-
-## Future Extensions
-
-- Multi-layer architectures
-- Advanced optimization methods
-- Training visualizations
-- Model checkpoints and versioning
-
----
-
-## Author
-
-Lokesh
-
----
-
-## License
-
-Open for learning and experimentation.
