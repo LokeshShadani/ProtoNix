@@ -74,3 +74,81 @@ Each component is written to be **readable, traceable, and explainable**.
 
 ## 📂 Project Structure
 
+protonix/
+│
+├── data/
+│ ├── raw/ # Original datasets
+│ └── processed/ # Cleaned datasets
+│
+├── model/
+│ ├── model.py # Model architecture
+│ ├── loss.py # Loss functions
+│ └── train.py # Training logic
+│
+├── utils/
+│ └── helpers.py # Utility functions
+│
+├── experiments/ # Training experiments
+├── main.py # Entry point
+├── requirements.txt
+└── README.md
+
+yaml
+Copy code
+
+---
+
+## 🔁 Training Workflow
+
+```text
+Data → Model → Prediction → Loss → Update → Repeat
+Load & preprocess data
+
+Initialize parameters
+
+Forward pass
+
+Loss calculation
+
+Parameter update
+
+Iterate through epochs
+
+Evaluate learning progress
+
+🧪 Current Status
+🟡 Experimental / Early Development
+
+Architecture and training logic are evolving iteratively.
+
+Breaking changes are expected.
+
+🛣 Roadmap
+ Implement base model (v0.1)
+
+ Add training loop
+
+ Visualize learning curves
+
+ Introduce multi-layer architecture
+
+ Add model checkpoints
+
+ Improve optimization strategies
+
+🧩 Versioning
+v0.x → Core fundamentals
+
+v1.x → Stable learning system
+
+v2.x → Advanced architectures
+
+👤 Author
+Lokesh
+Python & AI learner
+Focused on fundamentals over shortcuts
+
+📜 License
+This project is open for learning, experimentation, and exploration.
+
+<p align="center"> <i>“If you can explain how it learns, you’re building it right.”</i> </p> ```
